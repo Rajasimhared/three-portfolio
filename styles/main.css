@@ -33,3 +33,9 @@ h1 {
   */
   background-color: skyblue;
 }
+
+#renderScene {
+  top: 3rem;
+  position: absolute;
+  z-index: 9999;
+}
