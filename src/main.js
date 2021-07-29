@@ -8,9 +8,11 @@ function main() {
 
     const world = new World(container);
 
-    world.render();
+    world.start();
 }
 
-document.querySelector('#renderScene').addEventListener('click', () => {
-    main();
-})
+main();
+
+// document.querySelector('#renderScene').addEventListener('click', () => {
+//     main();
+// })

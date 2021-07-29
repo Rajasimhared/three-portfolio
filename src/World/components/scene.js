@@ -6,7 +6,7 @@ import {
 function createScene() {
     const scene = new Scene();
 
-    scene.background = new Color('green');
+    scene.background = new Color('yellow');
 
     return scene;
 }
